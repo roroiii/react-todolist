@@ -4,7 +4,11 @@ import styled from 'styled-components';
 import { ThemeProvider } from 'styled-components';
 import {MEDIA_QUERY_M, MEDIA_QUERY_L} from './constants/breakpoint';
 
-const theme = {
+
+
+
+
+var theme = {
   colors: {
     primary_300: '#ff0000',
     primary_600: '#dd0000',
