@@ -6,7 +6,7 @@ import { useState } from "react";
 
 
 
-var   id = 3; // 因為 function 每次都會重新被呼叫，所以 id 要放在 function 外面
+var id = 3; // 因為 function 每次都會重新被呼叫，所以 id 要放在 function 外面
 function App() {
   const [todos, setTodos] = useState([
     { id: 1, content: "abc", size: "XL", isDone: true, title: "Todo" },
