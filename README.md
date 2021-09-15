@@ -17,5 +17,5 @@
 - 支援中文輸入，支援 Enter 鍵新增 todo 
 - 支援基本的行動裝置 RWD
 
-![todolist-app/public/todolist-mobile_2021-09-15_16-19-18.png](/todolist-app/public/todolist-mobile_2021-09-15_16-19-18.png)
+![](../todolist-app/public/todolist-mobile_2021-09-15_16-19-18.png)
 
