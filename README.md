@@ -18,6 +18,6 @@
 - 支援基本的行動裝置 RWD
 
 
-![](../todolist-app/public/todolist-mobile_2021-09-15_16-19-18.png)
+![](./public/todolist.png)
 
 
