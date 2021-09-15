@@ -59,7 +59,6 @@ const ToggleButton = styled(Button)`
 const DelButton = styled(Button)`
   padding: 9px 0;
   margin-left: 8px;
-  /* background-color: #ef5350; */
   min-width: 48px;
 `;
 

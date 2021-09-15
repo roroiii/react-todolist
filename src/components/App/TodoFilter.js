@@ -1,6 +1,7 @@
 import React from "react";
-import styled from "styled-components";
 import PropTypes from "prop-types";
+
+import styled from "styled-components";
 import { Button } from "@material-ui/core";
 import {
   AiFillCheckCircle,
@@ -14,7 +15,6 @@ const FilterBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 252px; */
   left: -137px;
   top: 0;
 
@@ -107,13 +107,4 @@ TodoFilter.propTypes = {
   todoDone: PropTypes.func,
   handleClearClick: PropTypes.func,
   handleClearClickAll: PropTypes.func,
-  // todo: PropTypes.shape({
-  //   id: PropTypes.number,
-  //   content: PropTypes.string,
-  //   isDone: PropTypes.bool,
-  // }),
-  // handleDeleteTodo: PropTypes.func,
-  // handleToggleIsDone: PropTypes.func,
-  // handleTodoFilter: PropTypes.func,
-  // handleTodoContentUpdate: PropTypes.func,
 };

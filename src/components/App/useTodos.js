@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 function writeTodosToLocalStorage(todos) {
   window.localStorage.setItem("todoApp", JSON.stringify(todos));
@@ -83,11 +83,17 @@ export default function useTodos() {
   };
 
   const handleTextEnter = (e) => {
-    if (e.key === "Enter") {
+    if (e.keyCode === 13 && !e.shiftKey) {
       handleAddClick();
-      console.log(value);
     }
   };
+
+  useEffect(() => {
+    writeTodosToLocalStorage(todos);
+    if (todos.length === 0) {
+      window.localStorage.clear();
+    }
+  }, [todos]);
 
   useEffect(() => {
     writeTodosToLocalStorage(todos);
