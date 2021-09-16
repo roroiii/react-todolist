@@ -4,7 +4,6 @@ import TodoItem from "./TodoItem";
 import TodoFilter from "./TodoFilter";
 import TodoInput from "./TodoInput";
 import useTodos from "./useTodos";
-// import { TextField, Button } from "@material-ui/core";
 import { MEDIA_QUERY_S } from "../../constants/breakpoint";
 
 const Wallpaper = styled.div`
@@ -33,39 +32,11 @@ const TodoApp = styled.div`
   }
 `;
 
-// const AddButton = styled(Button)`
-//   margin-left: 16px;
-//   ${MEDIA_QUERY_S} {
-//     width: 100%;
-//     margin-left: 0;
-//     margin-top: 16px;
-//     height: 48px;
-//   }
-// `;
-
 const Title = styled.h1`
   font-size: 24px;
   text-align: center;
   margin: 10px 0 16px 0;
 `;
-
-// const InputContent = styled(TextField)`
-//   width: 300px;
-
-//   ${MEDIA_QUERY_S} {
-//     width: 100%;
-//   }
-// `;
-
-// const AddTodoInputBox = styled.div`
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-around;
-
-//   ${MEDIA_QUERY_S} {
-//     flex-direction: column;
-//   }
-// `;
 
 const NoTodo = styled.div`
   text-align: center;
@@ -106,27 +77,6 @@ export default function TodoList() {
           handleTextChange={handleTextChange}
           handleTextEnter={handleTextEnter}
         />
-        {/* <AddTodoInputBox>
-          <InputContent
-            multiline
-            required
-            type="text"
-            value={value}
-            onChange={handleTextChange}
-            onKeyDown={handleTextEnter}
-            placeholder="add some tasks..."
-            color="secondary"
-            label="Required"
-          />
-          <AddButton
-            variant="contained"
-            color="secondary"
-            onClick={handleAddClick}
-          >
-            Add todo
-          </AddButton>
-        </AddTodoInputBox> */}
-
         {todos &&
           todos
             .filter((todo) => todo.isDone !== todoFilter)
