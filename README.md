@@ -29,6 +29,6 @@
 - 支援基本的行動裝置 RWD
 
 
-![](./public/todolist.png)
+![](./public/todolist.gif)
 
 
