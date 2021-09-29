@@ -19,7 +19,7 @@ const TodoContent = styled(TextField)`
   color: #333;
   padding-left: 16px;
   font-size: 18px;
-  word-break: break-all;
+  word-break: break-word;
   width: 300px;
   & > div > textarea {
     text-align: justify;
