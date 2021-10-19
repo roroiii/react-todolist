@@ -4,7 +4,7 @@
 ## 一個用 React Hooks 製作的 TodoList
 作品網址：https://roroiii.github.io/react-todolist/
 
-## User Stor
+## User Story
 1. 身為一個使用者，我希望 TodoList 的內容可以儲存在本地端，這樣我才能方便修改
 2. 身為一個使用者，我希望 TodoList 可以管理 todo，這樣我才能方便修改
 3. 身為一個使用者，我希望 TodoList 可以新增 todo，並支援中文輸入
